@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+/* ---------------Configuraciones generales ------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+body {
+    background-color: #242635;
+}
+
+span, p {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.container-about-me .text-about-me {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 30px;
+    color: #D1CECA;
+}
+
+.color-acento {
+    color: #34B0BE;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+/* ------------------------------Barra de navegación---------------------------*/
+
+.toogle-menu-img {
+    max-width: 100%;
+}
+
+.toggle-menu {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    cursor: pointer;
+    filter: invert(1);
+    z-index: 1;
+}
+
+.main-menu {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s;
+    transform: translateY(-100%);
+    width: 100%;
+    background-color: #373b4f;
+    opacity: 0.8;
+    position: absolute;
+}
+
+.main-menu--show {
+    transform: translateY(0);
+} 
+
+.main-menu-item {
+    padding: 1em;
+}
+
+.main-menu__link {
+    color: #D1CECA;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+ 
+/* -----------------Perosal info contener 1 ------------*/
+
+.container-main {
+    padding-top: 40px;
+}
+
+.container-img-personal {
+    background-image: url(./img/Logos-Imagenes/personal-img.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 16px;
+}
+
+.personal-info {
+    width: 60%;
+    height: 60vh;
+}
+
+.personal-info .color-span {
+    font-size: 32px;
+    font-weight: 100;
+    display: block;
+    
+}
+
+.personal-info .color-acento {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.personal-info .line {
+    width: 120px;
+    height: 2px;
+    background-color: #D1CECA;
+}
+
+.personal-info .personal-info-text {
+    font-size: 16px;
+    font-weight: 100;
+    margin-top: 10px;
+    width: 70%;
+    
+}
+/* -----------------------personal info contenedor 2----------------------- */
+.personal-info-2 {
+    width: 40%;
+}
+
+.icons-main-img .size-img-main {
+    width: 24px;
+    vertical-align: bottom;
+}
+
+.personal-info-2-text {
+    font-size: 16px;
+    font-weight:600;
+    display: block;
+    margin-top: 10px;
+}
+
+.personal-info-2-text-1 {
+    font-size: 16px;
+    font-weight: 100;
+    display: block;
+}
+/* ---------------------------------inconos main ------------------------ */
+
+main .container-icons-main {
+    display: inline-flex;
+    width: 100%;
+    margin-top: 10px;
+    justify-content: space-evenly;
+     
+}
+
+.container-icons-main .icons-main-img {
+    border-radius: 80px;
+    background-color: #D1CECA;
+    padding: 6px;
+    margin: 10px 10px 0 0;
+    
+    
+}
+
+/* -------------------------personal info 3---------------- */
+
+div .personal-info-3 {
+    width: 100%;
+}
+main .container-logos-main {
+    background-color: #373b4f;
+    border-radius: 10px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+main .logos-main-img {
+    background-color: #D1CECA;
+    border-radius: 10px;
+    padding: 3px 14px;
+    margin: 16px 13px;
+    display: inline-flex;
+    
+}
+
+main .logos-main-img img {
+    width: 35px;
+}
+
+article {
+    padding: 0 12px 0 12px;
+}
+
+/* ---------------------------------------card--------------------------------- */
+.container-services__cards {
+    overflow: auto;
+    margin: 12px;
+    display: flex;
+}
+
+
+.container-services__cards::-webkit-scrollbar {
+    display: none;
+}
+
+.container-services__card{
+    background-color: #ffffff;
+    border-radius: 5px;
+    background-image: url(./img/Vectores/Ellipse14.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    margin-right: 14px;
+    text-align: center;
+}
+
+.text_services_dark{
+    color: #242635;
+    font-weight: 600;
+    font-size: 24px;
+    margin: 16px 0;
+}
+
+.text_services_light {
+    color: #D1CECA;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 40px 15px;
+}
+
+.container-services__card .img-size {
+    margin: 50px 70px 0 70px;
+}
+ /* ------------------linea de progreso */
+.progres {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.progres .dimention {
+    width: 95%;
+    height: 25px;
+    margin: 0 auto;
+}
+
+.progres .text-mis-habilidades {
+    font-weight: 500;
+    font-size: 18px;
+    margin: 20px 0 0 12px;
+}
+/* ------------------------------------portafolio-------------------------------- */
+.img-size-portafolio {
+    width: 220px;
+}
+
+section .container-portafolio {
+    display: flex;
+    padding: 12px;
+    overflow: auto;
+    gap: 1.5rem;
+    width: 100%;
+}
+
+.container-portafolio::-webkit-scrollbar {
+    display: none;
+}
+ /* --------------------------------------contact------------------------- */
+.container-contact {
+    width: 100%;
+    margin: 0 auto;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-contact .container-contact-item { 
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 12px;
+    width: 50%;
+    background-image: url(./img/Vectores/Ellipse14.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    width: 50%;
+    max-width: 200px;
+}
+
+.img-size-contact {
+    width: 70px;
+    margin-top: 30px;
+}
+
+.container-contact .text-dark-contact {
+    color: #242635;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.container-contact .text-ligth-contact {
+     color: #D1CECA;
+     font-size: 16px;
+     margin: 20px 0;
+}
+ /* -----------------------footer---------------------------------- */
+footer {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: #373b4f;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+/* ------------------------------media querys------------------------ */
+@media screen and (min-width: 768px) {
+    h2 {
+        font-size: 50px;
+        font-weight: 500;
+        margin-top: 70px;
+        margin-bottom: 50px;
+    }
+
+    .main-menu {
+        flex-direction: row;
+        transform: translateY(0);
+        justify-content: flex-end;
+    }
+
+    .toggle-menu {
+        display: none;
+    }
+
+    .container-main {
+        padding-top: 70px;
+    }
+    .personal-info .color-span {
+        font-size: 50px;
+    }
+
+    .personal-info .color-acento {
+        font-size: 150px;
+    }
+
+    .personal-info {
+        width: 70%;
+        height: 80vh;
+    }
+
+    .personal-info-2 {
+        width: 30%;
+    }
+    
+    .personal-info .line {
+        width: 350px;
+        height: 5px;
+        background-color: #D1CECA;
+    }
+
+    .personal-info .personal-info-text {
+        font-size: 50px;
+        font-weight: 100;
+        margin-top: 10px;
+        width: 60%;
+    }
+
+    .personal-info-2-text {
+        font-size: 50px;
+        font-weight: 500;
+    }
+
+    .personal-info-2-text-1 {
+        font-size: 50px;
+        font-weight: 300;
+    }
+
+    main .container-icons-main {
+        justify-content: flex-start;
+    }
+    
+    main .container-logos-main {
+        width: 60%;
+    }
+
+    div .personal-info-3 {
+        display: flex;
+        justify-content: center;
+    }
+
+    main .logos-main-img {
+        padding: 0 40px;
+        margin: 20px 30px; 
+    }
+
+    main .logos-main-img img {
+        width: 66px;
+        margin: 10px;
+    }
+    article {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .container-about-me .text-about-me {
+        width: 40%;
+    }
+
+    .container-services__cards {
+        justify-content: center;
+    }
+    .container-services__card{
+        margin-right: 50px;
+        width: 20%;
+    }
+
+    .progres {
+        width: 50%;
+    }
+
+    section .container-portafolio {
+        justify-content: center;
+    }
+}
