@@ -314,6 +314,26 @@ section .container-portafolio {
      font-size: 16px;
      margin: 20px 0;
 }
+ /* -----------------------button mi cv---------------------------------- */
+
+.container-mi-cv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+button {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 10px;
+    font-weight: 800;
+}
+
+button:hover {
+    color: #34B0BE;
+}
+
  /* -----------------------footer---------------------------------- */
 footer {
     display: flex;
