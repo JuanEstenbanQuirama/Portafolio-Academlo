@@ -395,7 +395,7 @@ footer {
         width: 60%;
     }
 
-    div .personal-info-3 {
+    .personal-info-3 {
         display: flex;
         justify-content: center;
     }
